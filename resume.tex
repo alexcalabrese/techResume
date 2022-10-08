@@ -1,0 +1,40 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{cv}
+\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm,columnsep=0.75cm}
+
+\usepackage{paracol}
+\usepackage{hyperref}
+
+\usepackage[default]{lato}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{John Doe}
+\tagline{Undergraduate BSc}
+\personalinfo{
+	\email{johndoe@example.com}
+	\github{john_doe}
+	\linkedin{john_doe}
+        \location{Mars}
+}
+
+\makecvheader
+
+\AtBeginEnvironment{itemize}{\small}
+
+\columnratio{0.55}
+
+\begin{paracol}{1}       
+        
+    \input{sections/work_experience.tex}
+	
+    \input{sections/education.tex}
+	
+    \input{sections/achievements.tex}
+     
+    \input{sections/side_projects.tex}
+
+\end{paracol}
+
+\end{document}
