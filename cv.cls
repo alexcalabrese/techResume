@@ -196,16 +196,16 @@
 
 \newcommand{\makecvheader}{%
   \begingroup
-    \altacv@left@photos\hfill%
-    \begin{minipage}{\dimexpr\linewidth-\altacv@photos@width}%
-    \raggedright%
+    % \altacv@left@photos\hfill%
+    % \begin{minipage}{\dimexpr\linewidth-\altacv@photos@width}%
+    % \raggedright%
     {\centering\namefont\color{name}\MakeUppercase{\@name}\par}
     \medskip
     {\centering\taglinefont\color{tagline}\@tagline\par}
     \medskip
     {\centering\personalinfofont\@personalinfo\par}
-    \end{minipage}\hfill%
-    \altacv@right@photos\par%
+    % \end{minipage}\hfill%
+    % \altacv@right@photos\par%
   \endgroup\medskip
 }
 
