@@ -6,13 +6,13 @@ This template is a highly customized version of [AltaCV](https://github.com/lian
 - Single page;
 - One column.
 
-## TODO
-
-- [ ] Add overleaf template.
-
 ## Preview
 
 <img align="center" src="example/techResume.jpg" height="1000px"/>
+
+## TODO
+
+- [ ] Add overleaf template.
 
 ## Contributing
 
