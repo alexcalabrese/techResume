@@ -6,14 +6,16 @@ This template is a highly customized version of [AltaCV](https://github.com/lian
 - Single page;
 - One column.
 
-## Preview
+## Import project to Overleaf
 
-<img align="center" src="example/techResume.jpg" height="1000px"/>
+You can download the project in .zip format by clicking [here](https://github.com/alexcalabrese/techResume/archive/main.zip).
 
-## TODO
-
-- [ ] Add overleaf template.
+Then on **Overleaf** click on "**New Project**", click on "**Upload Project**" and upload the downloaded zip.
 
 ## Contributing
 
 Thank you for considering contributing! ❤
+
+## Preview
+
+<img align="center" src="example/techResume.jpg" height="1000px"/>
