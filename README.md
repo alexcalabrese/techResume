@@ -6,6 +6,8 @@ This template is a highly customized version of [AltaCV](https://github.com/lian
 - Single page;
 - One column.
 
+<h4>Please help this repo with a :star: if you find it useful!</h4>
+
 ## Import project to Overleaf
 
 You can download the project in .zip format by clicking [here](https://github.com/alexcalabrese/techResume/archive/main.zip).
