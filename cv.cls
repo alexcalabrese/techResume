@@ -253,10 +253,17 @@
 %   \medskip\normalsize
 %   }
 
-
 \newcommand{\cvexperience}[5]{%
   \ifstrequal{#1}{}{}{{\small\makebox[0.5\linewidth][l]{\color{emphasis}\textbf{#1}}}}
   \ifstrequal{#2}{}{}{{\small\makebox[0.5\linewidth][r]{\color{emphasis} \textbf{#4}, #2}}}\par\smallskip
+  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{#5}}}
+  \ifstrequal{#2}{}{}{{\small\makebox[0.5\linewidth][r]{\faCalendar~#3}}}\par
+  \medskip\normalsize
+  }
+
+\newcommand{\cvexperiencewithimg}[7]{%
+  \ifstrequal{#1}{}{}{{\small\makebox[0.5\linewidth][l]{\color{emphasis}\textbf{#1}}}}
+  \ifstrequal{#6}{}{}{{\small\makebox[0.5\linewidth][r]{\includegraphics[scale=#7]{#6}{\color{emphasis}\textbf{ #4}, }{#2}}}}\par\smallskip
   \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{#5}}}
   \ifstrequal{#2}{}{}{{\small\makebox[0.5\linewidth][r]{\faCalendar~#3}}}\par
   \medskip\normalsize
